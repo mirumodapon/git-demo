@@ -1,0 +1,121 @@
+body {
+    width: min(600px, 80vw);
+    margin: auto;
+    padding: 50px 75px;
+    
+    border: 1px solid black;
+}
+
+.name, .position, .work, .edu, .sk, .lang, .ref, body p {
+    margin: 0;
+}
+
+/* basic-intro */
+.basic-intro {
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1.5px solid #2f2f2f;
+    padding: 10px 0 18px;
+}
+
+.br {
+    padding: 10px 0;
+}
+
+.contact_data {
+    font-size: 0.9em;
+}
+
+.basic-intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bi-2 {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+
+.photo {
+    height: 120px;
+    margin-left: -30px;
+}
+
+/* experience, education */
+.experience, .education {
+    padding: 30px 0 15px;
+    border-bottom: 1.5px solid #2f2f2f;
+}
+
+.experience > div , .education > div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.work, .edu {
+    letter-spacing: 1px;
+}
+
+.ex-2, .edu-2 {
+    width: 73%;
+}
+
+.ex-time {
+    padding-bottom: 84px;
+    color: #5f5f5f;
+}
+
+.school {
+    padding-bottom: 65px;
+    color: #5f5f5f;
+}
+
+.ex-title, .edu-title {
+    padding-bottom: 10px;
+}
+
+.ex-p, .edu-p {
+    padding-bottom: 17px;
+}
+
+/* skills, language, reference */
+.slr {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2px;
+}
+
+.slr > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sk-p, .lang-p {
+    padding-bottom: 10px;
+}
+.ref-p, .ref-name {
+    padding-bottom: 2px;
+    font-size: 14px;
+}
+
+.sk, .lang {
+    padding: 30px 0 20px;
+}
+.ref {
+    padding: 30px 0 15px;
+}
+
+.skills {
+    padding-right: 10px;
+}
+
+.language {
+    padding-left: 32px;
+    padding-right: 60px;
+    border-left: 1.5px solid #2f2f2f;
+    border-right: 1.5px solid #2f2f2f;
+}

@@ -1,0 +1,214 @@
+body {
+    border: 1px solid black;
+    width: min(700px, 80vw);
+    margin: auto;
+}
+body > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* hr */
+body hr {
+    margin: 0;
+}
+
+
+/* element1-left */
+.left {
+    width: 45%;
+    background-color: rgb(149, 153, 135);
+    padding-top: 35px;
+}
+
+
+/* img */
+.img {
+    height: 320px;
+    display: flex;
+    justify-content: center;
+}
+.photo {
+    height: 100%;
+}
+
+
+/* word color */
+.left h3 {
+    color: #fff;
+}
+.left p, .left li {
+    color: rgb(235, 237, 229);
+}
+
+
+/* profile */
+.profile h3, .profile p {
+    margin: 0;
+    padding-left: 32px;
+    padding-right: 30px;
+}
+.profile h3 {
+    padding-top: 30px;
+    padding-bottom: 4px;
+    letter-spacing: 2px;
+    font-size: 21px;
+}
+.profile p {
+    padding-top: 18px;
+    padding-bottom: 8px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+
+/* skills */
+.skills h3 {
+    margin: 0;
+    padding: 30px 30px 4px 32px;
+    letter-spacing: 2px;
+    font-size: 21px;
+}
+.skills ul {
+    margin: 0;
+    padding: 18px 30px 8px 49px;
+    letter-spacing: 0.5px;
+}
+.skills li{
+    font-size: 15px;
+    padding-bottom: 3px;
+}
+
+
+.awards h3 {
+    margin: 0;
+    padding: 30px 30px 4px 32px;
+    letter-spacing: 2px;
+    font-size: 21px;
+}
+.awards ul {
+    margin: 0;
+    padding: 18px 30px 18px 49px;
+    letter-spacing: 0.8px;
+}
+.awards li{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+/* element2-right */
+.right {
+    width: 55%;
+    background-color: rgb(252, 249, 244);
+
+}
+.right p, .right li, .right h4, footer p{
+    color: #757969;
+}
+.right i {
+    color: #444440;
+}
+
+/* name */
+.name {
+    background-color: #e5e0db;
+    font-size: 30px;
+    padding: 35px 40px 30px;
+    margin-top: 35px;
+    margin-bottom: 13px;
+}
+.name h1 {
+    margin: 0;
+    color: #636659;
+}
+.name p {
+    margin: 0;
+    color: #959987;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+
+/* exp */
+.exp h4 {
+    margin: 0;
+    padding: 30px 30px 2px 40px;
+    letter-spacing: 2px;
+    font-size: 21px;
+}
+.exp p {
+    margin: 0;
+    font-size: 16px;
+    padding: 15px 30px 2px 40px;
+    letter-spacing: 0.5px;
+}
+.exp i {
+    margin: 0;
+    font-size: 15px;
+    padding: 15px 30px 2px 40px;
+    letter-spacing: 0.6px;
+}
+.exp ul {
+    margin: 0;
+    padding: 12px 30px 18px 57px;
+    letter-spacing: 0.8px;
+}
+.exp li {
+    font-size: 15px;
+    padding-bottom: 1px;
+}
+
+
+/* edu */
+.edu h4 {
+    margin: 0;
+    padding: 30px 30px 2px 40px;
+    letter-spacing: 2px;
+    font-size: 21px;
+}
+.edu p {
+    margin: 0;
+    font-size: 16px;
+    padding: 15px 30px 2px 40px;
+    letter-spacing: 0.5px;
+}
+.edu i {
+    margin: 0;
+    display: block;
+    font-size: 15px;
+    /* padding: 15px 30px 2px 40px; */
+    padding-left: 40px;
+    padding-right: 30px;
+    letter-spacing: 0.6px;
+}
+.edu ul {
+    margin: 0;
+    padding: 12px 25px 0 57px;
+    letter-spacing: 0.5px;
+}
+.edu li {
+    font-size: 15px;
+    padding-bottom: 1px;
+}
+
+/* part2-footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(235, 237, 229);
+}
+footer p {
+    margin: 35px 0;
+}
+footer > div {
+    display: flex;
+    align-items: center;
+}
+footer span {
+    font-size: 20px;
+    margin: 35px 0;
+    padding-right: 10px;
+    color: #757969;
+}

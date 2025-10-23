@@ -1,0 +1,232 @@
+body {
+    border: 1px solid black;
+    width: min(700px, 80vw);
+    margin: auto;
+}
+
+.basic-intro, p, h3, h4, h1, ul {
+    margin: 0;
+}
+
+/* basic-intro */
+.basic-intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 40px;
+}
+
+
+.img-1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: 30px;
+}
+.img-2 {
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.photo {
+    height: 148px;
+    margin-left: -33px;
+}
+
+
+.intro {
+    width: 57%;
+}
+.intro p {
+    font-size: 12px;
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
+
+
+/* data */
+.data {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 30px 25px;
+}
+
+.data p, li {
+    font-size: 12px;
+}
+
+.left {
+    width: 37%;
+    
+}
+
+.right {
+    width: 58%;
+}
+
+.contact, .skills, .reference, .experience, .education {
+    border: 1.8px solid black;
+    border-radius: 10px;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+strong {
+    font-size: 14px;
+}
+i {
+    font-size: 13px;
+}
+
+
+.contact {
+    padding: 35px 20px 12px 15px;
+    margin-bottom: 85px;
+    position: relative;
+}
+.contact_title {
+    position: absolute;
+    border: 1.8px solid black;
+    border-radius: 20px;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    background-color: rgb(253, 215, 119);
+    top: -23px;
+}
+.contact p {
+    padding-bottom: 12px;
+    letter-spacing: 1.5px;
+    display: flex;
+    align-items: center;
+}
+.icon {
+    display: flex;
+}
+.contact span {
+    font-size: 24px;
+    padding-right: 10px;
+    padding-bottom: 12px;
+}
+
+
+.skills {
+    padding: 36px 23px 25px;
+    margin-bottom: 85px;
+    position: relative;
+}
+.skills > div {
+    position: absolute;
+    border: 1.8px solid black;
+    border-radius: 20px;
+    padding: 10px 45px;
+    letter-spacing: 1px;
+    background-color: rgb(107, 164, 255);
+    top: -23px;
+}
+.skills li {
+    padding-bottom: 12px;
+    letter-spacing: 1.5px;
+}
+
+
+.reference  {
+    padding: 38px 20px 12px;
+    margin-bottom: 35px;
+    position: relative;
+}
+.reference > div {
+    position: absolute;
+    border: 1.8px solid black;
+    border-radius: 20px;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    background-color: rgb(46, 207, 46);
+    top: -23px;
+}
+.ref-p {
+    padding-bottom: 9px;
+    padding-right: 2px;
+    font-size: 10px;
+    letter-spacing: 0.8px;
+}
+.reference .ref-name {
+    font-size: 16px;
+    padding-bottom: 5px;
+    letter-spacing: 1.5px;
+}
+.reference .ref-pos {
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+.phone, .email {
+    font-size: 12px;
+    letter-spacing: 0.8px;
+}
+
+
+.experience {
+    padding: 20px 15px 15px;
+    margin-bottom: 55px;
+    position: relative;
+}
+.experience > div {
+    position: absolute;
+    border: 1.8px solid black;
+    border-radius: 20px;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    background-color: rgb(253, 86, 164);
+    top: -23px;
+}
+.ex-title {
+    padding-top: 18px;
+    letter-spacing: 1.5px;
+
+}
+.ex-name {
+    padding-top: 7px;
+    letter-spacing: 1.5px;
+}
+.ex-p {
+    padding-top: 5px;
+    letter-spacing: 1.5px;
+}
+
+
+.education {
+    padding: 40px 20px 10px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.education > div {
+    position: absolute;
+    border: 1.8px solid black;
+    border-radius: 20px;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    background-color: rgb(60, 178, 236);
+    top: -23px;
+}
+.education p {
+   padding-bottom: 13px; 
+   letter-spacing: 1.5px;
+}
+.education li {
+    padding-bottom: 7px;
+    letter-spacing: 1.5px;
+}
+
+
+
+
+ 

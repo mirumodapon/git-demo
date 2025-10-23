@@ -1,0 +1,232 @@
+body {
+    width: min(700px, 80vw);
+    margin: auto;
+    border: 1px solid #d4d3d3;
+    position: relative;
+}
+
+
+h1, h3, h4, p, ul {
+    margin: 0;
+}
+h1, h3, h4, p, li {
+    color: #3b3b3b;
+}
+.text {
+    display: flex;
+    justify-content: space-around;
+    border-top: 5px solid #dfdfdf;
+    border-left: 5px solid #dfdfdf;
+    border-right: 5px solid #dfdfdf;
+    margin: 36px 25px 0 27px;
+    position: relative;
+    z-index: 2;
+}
+
+.bg1 {
+    width: 28%;
+    height: 24%;
+    background-color: #d4d3d3;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bg2 {
+    width: 33%;
+    height: 27%;
+    position: absolute;
+    background-color: #dfdfdf;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* left */
+.left {
+    width: 49%;
+    padding: 45px 15px 45px 40px;
+}
+
+.photo {
+    width: 240px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid rgb(216, 199, 179);
+    margin-left: 10px;
+    position: absolute;
+    z-index: 10;
+    padding-top: 3px;
+}
+img {
+    width: 270px;
+    margin-left: -25px;
+    margin-top: -12px;
+}
+
+.no_img {
+    margin: 250px 0 0 ;
+}
+
+.about h3 {
+    padding: 43px 0 4px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+.about p {
+    letter-spacing: 1px;
+    font-size: 14.8px;
+    line-height: 21px;
+    text-align: justify;
+}
+
+.edu h3 {
+    padding: 32px 0 5px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+.edu p {
+    font-size: 14.7px;
+    letter-spacing: 1px;
+}
+.edu li {
+    font-size: 14.7px;
+    letter-spacing: 1px;
+    padding: 0 8px;
+}
+.edu li::marker {       /* 沒作用 */
+    margin: 0 12px 0 0;    
+}
+.school {
+    padding: 0 0 2px;
+}
+.time {
+    padding: 6px 0 12px;
+}
+
+.contact h3 {
+    padding: 15px 0 0;
+}
+.contact p {
+    padding: 10px 0 0;
+    font-size: 14.7px;
+    letter-spacing: 1px;
+}
+
+
+/* right */
+.right {
+    width: 51%;
+    padding: 30px 38px 40px 35px;
+}
+
+.name {
+    padding-right: 8px;
+}
+.name h1 {
+    letter-spacing: 2px;
+    font-size: 28px;
+    line-height: 38px;
+    padding-bottom: 3px;
+}
+.name p {
+    font-size: 22.5px;
+    letter-spacing: 1px;
+    margin-right: 25px;
+}
+.position {
+    border-bottom: 2.5px solid #3b3b3b;
+    padding-bottom: 10px;
+}
+
+.exp {
+    padding-right: 8px;
+}
+.exp h3 {
+    font-size: 20px;
+    padding: 35px 0 0;
+    letter-spacing: 1px;
+}
+.exp h4 {
+    font-size: 18px;
+    padding: 13px 0 0;
+}
+.exp li {
+    padding-bottom: 2px;
+    font-size: 14.7px;
+    letter-spacing: 1px;
+    line-height: 21px;
+}
+.exp ul {
+    padding-left: 25px;
+    padding-right: 40px;
+    padding-bottom: 3px;
+}
+.exp p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 8px 0 5px;
+}
+
+.lang {
+    padding-right: 30px;
+}
+.lang h3, .skill h3 {
+    font-size: 20px;
+    padding: 20px 0 7px;
+    letter-spacing: 1px;
+}
+.lang p, .skill p {
+    font-size: 14.7px;
+    padding-bottom: 8px;
+    letter-spacing: 1px;
+}
+.lang > div, .skill > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bar {
+    width: 130px;
+    height: 6px;
+    /* border: 1px solid #dcdcdc; */
+    border-radius: 10px;
+    background-color: #dcdcdc;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+}
+.dark {
+    /* width: 75%; */
+    height: 100%;
+    background-color: #3b3b3b;
+    border-radius: 10px;
+    /* border: 1px solid #3b3b3b; */
+    margin: 0;
+}
+
+
+.bg3 {
+    background-color: #dfdfdf;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 17%;
+    height: 9%;
+}
+.bg4 {
+    background-color: #d4d3d3;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 9%;
+    height: 4%;
+}
+
+footer {
+    width: 100%;
+    height: 30%;
+    padding-top: 39px;
+    border-top: 5px solid #dfdfdf;
+}
